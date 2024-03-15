@@ -4,7 +4,7 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { useForm } from "react-hook-form";
-import { signIn } from "next-auth/react";
+import { signIn,  } from "next-auth/react";
 import { toast } from "@/components/ui/use-toast";
 
 export function AuthForm() {

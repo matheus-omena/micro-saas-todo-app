@@ -5,15 +5,13 @@ import {
   DashboardPageMain,
 } from '@/components/dashboard/page'
 
-export default async function Page() {
-  // const session = await auth()
-
+export default function Page() {
   return (
     <DashboardPage>
       <DashboardPageHeader>
-        <DashboardPageHeaderTitle>Tarefas</DashboardPageHeaderTitle>
+        <DashboardPageHeaderTitle>Configurações</DashboardPageHeaderTitle>
       </DashboardPageHeader>
-      <DashboardPageMain>Tarefas</DashboardPageMain>
+      <DashboardPageMain>Configurações</DashboardPageMain>
     </DashboardPage>
   )
 }
